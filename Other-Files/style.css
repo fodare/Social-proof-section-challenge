@@ -1,0 +1,133 @@
+/* Default family */
+body {
+   font-family: "Spartan", sans-serif;
+}
+
+/* Users Love our products */
+.first-div {
+   padding-top: 150px;
+}
+.product-count {
+   font-size: 2.5rem;
+   font-weight: bolder;
+   color: #5f3460;
+   line-height: 1;
+}
+
+.header-message {
+   color: #bfbabf;
+}
+.container-fluid {
+   padding-left: 100px;
+   padding-right: 100px;
+}
+/* Rattings Area */
+.reviewers {
+   background-color: #e9e3e9;
+   border-radius: 5px;
+   height: 50px;
+   color: #583e5b;
+   padding: 10px;
+   margin-bottom: 20px;
+   font-weight: bold;
+   width: 500px;
+}
+.reviewers2 {
+   background-color: #e9e3e9;
+   border-radius: 5px;
+   height: 50px;
+   color: #583e5b;
+   padding: 10px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   font-weight: bold;
+   width: 500px;
+}
+.reviewers3 {
+   background-color: #e9e3e9;
+   border-radius: 5px;
+   height: 50px;
+   color: #583e5b;
+   padding: 10px;
+   margin-bottom: 20px;
+   margin-left: 70px;
+   font-weight: bold;
+   width: 500px;
+}
+
+/* Testimonial Area */
+.testtinonies {
+   margin-top: 80px;
+}
+.buyer {
+   background-color: #511f50;
+   border-radius: 12px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 30px;
+   margin-right: 20px;
+}
+.buyer2 {
+   margin-top: 20px;
+}
+.buyer3 {
+   margin-top: 40px;
+}
+.buyer-badge {
+   padding-top: 30px;
+}
+.buyer-image {
+   border-radius: 50%;
+   float: left;
+   margin-right: 30px;
+}
+
+.buyer-message {
+   padding-top: 50px;
+}
+h5 {
+   color: #fff;
+   font-weight: bold;
+}
+h6 {
+   color: #9b598f;
+   font-weight: lighter;
+   font-size: 14px;
+}
+.buyer-message {
+   color: #fff;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+@media screen and (max-width: 989px) {
+   .first-div {
+      text-align: center;
+   }
+   .reviewers {
+      width: 100%;
+   }
+   .reviewers2 {
+      margin-left: 0;
+      width: 100%;
+   }
+   .reviewers3 {
+      margin-left: 0;
+      width: 100%;
+   }
+   .buyer {
+      width: 100%;
+   }
+   .buyer-message {
+      font-size: 16px;
+   }
+}
+/* Footer Area */
+.attribution {
+   font-size: 11px;
+   text-align: center;
+   margin-top: 40px;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
