@@ -101,6 +101,10 @@ h6 {
 }
 
 @media screen and (max-width: 989px) {
+   .container-fluid {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
    .first-div {
       text-align: center;
    }
