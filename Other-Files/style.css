@@ -126,6 +126,32 @@ h6 {
       font-size: 16px;
    }
 }
+@media screen and (max-width: 375px) {
+   .container-fluid {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .first-div {
+      text-align: center;
+   }
+   .reviewers {
+      width: 100%;
+   }
+   .reviewers2 {
+      margin-left: 0;
+      width: 100%;
+   }
+   .reviewers3 {
+      margin-left: 0;
+      width: 100%;
+   }
+   .buyer {
+      width: 100%;
+   }
+   .buyer-message {
+      font-size: 16px;
+   }
+}
 /* Footer Area */
 .attribution {
    font-size: 11px;
